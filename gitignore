@@ -1,0 +1,42 @@
+# Arduino IDE
+*.elf
+*.bin
+*.hex
+*.map
+build/
+*.bak
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.piolib_deps/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Eigene Konfiguration (enthaelt IP-Adressen, Tokens etc.)
+config_local.h
+secrets.h
+credentials.h
+
+# Logs
+*.log
+
+# Temporaere Dateien
+*.tmp
+*.temp
